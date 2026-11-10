@@ -1,0 +1,49 @@
+{
+  "compressed": {
+    "backend": "ibm_marrakesh",
+    "physical_qubits": [
+      147,
+      148
+    ],
+    "shots": 500,
+    "job_id": "dbpkljk4148s739upsig",
+    "signal_amplitude_in_last_third_relative_to_noise_free": 0.93,
+    "overlap_of_time_signal_with_noise_free": 0.93,
+    "peaks_ppm": [
+      6.293,
+      6.309,
+      6.368,
+      6.384
+    ],
+    "noise_free_peaks_ppm": [
+      6.293,
+      6.306,
+      6.368,
+      6.381
+    ],
+    "correlation_with_noise_free_spectrum": 0.912
+  },
+  "trotter": {
+    "backend": "ibm_marrakesh",
+    "physical_qubits": [
+      147,
+      148
+    ],
+    "shots": 500,
+    "job_id": "dbpklmc4148s739upsm0",
+    "signal_amplitude_in_last_third_relative_to_noise_free": 0.26,
+    "overlap_of_time_signal_with_noise_free": 0.3,
+    "peaks_ppm": [
+      6.306,
+      6.336,
+      6.437
+    ],
+    "noise_free_peaks_ppm": [
+      6.293,
+      6.306,
+      6.368,
+      6.381
+    ],
+    "correlation_with_noise_free_spectrum": 0.442
+  }
+}

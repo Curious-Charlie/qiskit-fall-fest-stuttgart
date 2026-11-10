@@ -1,0 +1,12 @@
+{
+  "written_at": "2026-11-10 17:51:22 CET",
+  "status_at_writing": {"trotter_job": "RUNNING (no data)", "compressed_job": "DONE on server, data NOT inspected by us"},
+  "backend": "ibm_marrakesh", "pair": [147, 148], "dt_s": 0.0025, "steps": 300,
+  "calibration_used": {"cz_error": 1.16e-3, "cz_ns": 68, "sx_error": 2.1e-4, "readout": [0.0063, 0.0049], "T1_us": [261, 328], "T2_us": [130, 115]},
+  "model": "depolarising gates (lambda=4/3 err) + T2 dephasing during each Trotter step; 3 CZ + ~8 sx per step (sx count assumed)",
+  "prediction": {
+    "trotter": {"Gamma_hw_per_s": 3.7, "split": {"gates": 2.5, "T2_idle": 1.1}, "amplitude": 0.989, "note": "lower bound: no crosstalk/leakage/coherent errors"},
+    "compressed": {"Gamma_hw_per_s": 0.0, "amplitude": 0.984}
+  },
+  "reference_scales": {"Gamma_exp_per_s": 3.14, "Gamma_res_molC_per_s": [20, 43], "Gamma_task_per_s": ">1e4"}
+}

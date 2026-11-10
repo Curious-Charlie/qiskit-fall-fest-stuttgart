@@ -1,0 +1,20 @@
+{
+  "compressed": {
+    "job_id": "dbpkljk4148s739upsig",
+    "backend": "ibm_marrakesh",
+    "pair": [
+      147,
+      148
+    ],
+    "shots": 500
+  },
+  "trotter": {
+    "job_id": "dbpklmc4148s739upsm0",
+    "backend": "ibm_marrakesh",
+    "pair": [
+      147,
+      148
+    ],
+    "shots": 500
+  }
+}
