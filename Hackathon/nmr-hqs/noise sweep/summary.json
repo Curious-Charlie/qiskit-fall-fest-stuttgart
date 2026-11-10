@@ -1,0 +1,36 @@
+{
+  "molecule A": {
+    "j_couplings_hz": [
+      0.9,
+      11.8,
+      17.9
+    ],
+    "line_width_at_maximum_hz": 6.53,
+    "max_tolerable_noise_strength_per_s": 20.5,
+    "reference": "spectrum_3",
+    "resolved_peaks": 8,
+    "smallest_resolvable_line_spacing_hz": 6.05
+  },
+  "molecule B": {
+    "j_couplings_hz": [
+      0.5,
+      8.6,
+      15.6
+    ],
+    "line_width_at_maximum_hz": 7.48,
+    "max_tolerable_noise_strength_per_s": 23.5,
+    "reference": "spectrum_2",
+    "resolved_peaks": 8,
+    "smallest_resolvable_line_spacing_hz": 7.02
+  },
+  "molecule C": {
+    "j_couplings_hz": [
+      7.92
+    ],
+    "line_width_at_maximum_hz": 7.8,
+    "max_tolerable_noise_strength_per_s": 24.5,
+    "reference": "spectrum_1",
+    "resolved_peaks": 4,
+    "smallest_resolvable_line_spacing_hz": 7.92
+  }
+}
